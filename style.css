@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mikro {
+    position: relative;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 100px;
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  
+  left: 185px;
+  top: 325px;
+  font-size:large;
+  position: absolute;
+  color: aquamarine;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  animation: cursor 1s infinite step-end, typing 15s infinite steps(21);
+  white-space: nowrap;
+  overflow: hidden;
+}
+  @keyframes cursor{
+    0%, 100%{border-color: transparent;}
+    50%{border-color: #000;}
+  }
+  
+  @keyframes typing{
+    0%{ width: 0ch} 
+    50%{ width: 30ch;} 
+    80%{ width: 30ch;} 
+    
+
+}
+
+.db1 {
+    position: absolute;
+    top:155px;
+    left:625px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 127, 80, 0);
+    justify-content: center;
+    align-items: stretch;
+    width: 425px;
+    height:425px;
+    
+}
+
+.db1 button {
+    
+    background-color: rgba(255, 0, 0, 0);
+    color: blueviolet;
+    width: calc((100%/4) - 10px);
+    border: 10px;
+    margin: 5px;
+    cursor: pointer;
+
+  }
+
+/* 
+  .aButton {
+    margin-top: 75px;
+    margin-left: 1020px;
+  }
+
+  .s Button {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 30px;
+   
+  }
+  .d Button {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 30px;
+   
+  
+  }
+  .f Button {
+
+   
+  } 
+  .g Button {
+    margin-top: 50px;
+    margin-left: 1020px;
+  
+  }
+  .h Button {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 30px;
+    
+  }
+  .j Button {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 30px;
+    
+  }
+  .k Button {
+    margin-top: 0px;
+    margin-left: 1520px;
+   
+  
+  }
+  .l Button {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 30px;
+
+  } 
+  .z Button {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 30px;
+  
+   
+
+    
+  }
+ */
